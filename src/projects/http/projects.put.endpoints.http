@@ -1,0 +1,15 @@
+PUT http://localhost:3000/projects
+Content-Type: application/json
+
+{
+    "projectName":"Doss",
+    "projectthumbnail":"projectthumbnail.png",
+    "projectDescription":"projectDescription",
+    "projectURL":"projectURL.com",
+    "projectGithub":"projectGithub.com",
+    "projectPreview":"projectPreview",
+    "projectImages":[
+        "projectImage1.png",
+        "projectImage2.png"
+    ]
+}
